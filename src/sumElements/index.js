@@ -11,7 +11,14 @@
  * sumElements([Infinity, NaN, 1]); // 1
  */
 const sumElements = arr => {
-  /* your logic here...*/
+  var counter = 0;
+  for(var val in arr){
+    if ((typeof(val) === 'number') &&
+     isFinite(val) &&
+     !isNaN(+val)){
+      counter++;
+    }
+  }
 };
 
 export default sumElements;

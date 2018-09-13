@@ -9,7 +9,7 @@
  * twoSums([5, 9, 3], 12); // [9, 3]
  */
 const twoSums = (arr, base) => {
-  /* your logic here...*/
+    //I was out of time to start do that
 };
 
 export default twoSums;
